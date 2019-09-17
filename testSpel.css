@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "bloody";
+    src: url("fonts/bloodlustcond.ttf");
+}
+#score-container{
+    font-size:1.8em;
+}
+#score-display{
+    font-size:1.2em;
+}
+#life-display{
+    color:red;
+}
+#life-text{
+    margin-left:1em;
+}
+#game-container {
+    border:1px solid grey;
+    width:fit-content;
+
+    
+}
+.row{
+display:flex;
+
+}
+.game-field {
+    /*margin-bottom:0.050em;
+    margin-top:0.050em;
+    margin-left:0.050em;
+    margin-right:0.050em;*/
+    background-color:green;
+    width:16px;
+    height:16px;
+    /*border:1px solid lightgray;*/
+}
+#modal-gameover{
+    font-family: "bloody";
+    color:red;
+    font-size:2.5em;
+    display:none;
+    background-color:black;
+    height:100%;
+    width:100%;
+    z-index:5;
+    position:absolute;
+    
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+#modal-gameover h1 {
+    margin-bottom:-1em;
+    letter-spacing: 0.075em;
+}
+#modal-gameover p {
+    font-size:2em;
+}
+#restart-button{
+    font-family:"bloody";
+    padding:10px 30px 10px 30px;
+    font-size:2em;
+    background-color:red;
+    border:none;
+    border-radius:15px;
+    outline:none;
+}
+#modal-victory{
+    color:#333;
+    display:none;
+    height:100%;
+    width:100%;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    position:absolute;
+    background-color:plum;
+    font-size:2.5em;
+}
+#modal-victory h1 {
+    margin-bottom:-0.2em;
+}
+#restart-btn {
+    color:#333;
+    padding:10px 30px 10px 30px;
+    background-color:rgb(209, 112, 209);
+    font-size:1.5em;
+    border-radius:15px;
+    outline:none;
+    border:none;
+}
